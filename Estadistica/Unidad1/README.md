@@ -143,6 +143,58 @@ La **fórmula de Sturges** es una regla empírica que proporciona una estimació
 
 La fórmula es:
 
-$ [ k = 1 + 3.322 \times \log{10}(n) ] $
+$` [ k = 1 + 3.322 \times log{10}(n) ] `$
 
 Es importante mencionar que, aunque la fórmula de Sturges es ampliamente utilizada, en algunos contextos o con ciertos tipos de datos, puede ser más apropiado usar otro método para determinar el número de intervalos.
+
+# Medidas de Resumen
+
+Las medidas de resumen son estadísticas que proporcionan información sintetizada sobre un conjunto de datos. Estas medidas son esenciales para entender la distribución, tendencia y dispersión de los datos.
+
+## Medidas de Tendencia Central
+
+Las medidas de tendencia central identifican un valor central o típico en un conjunto de datos.
+
+### Media Aritmética
+
+**Definición:** Es la suma de todos los valores en un conjunto de datos dividida por el número total de valores.
+
+$ \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{n} $
+
+Donde:
+
+- $ \bar{X} $ es la media aritmética.
+- $ x_i $ son los valores individuales.
+- $ n $ es el número total de datos.
+
+### Mediana
+
+**Definición:** Es el valor que divide un conjunto de datos ordenados en dos partes iguales. Si hay un número impar de datos, la mediana es el valor central. Si hay un número par de datos, la mediana es el promedio de los dos valores centrales.
+
+### Modo
+
+**Definición:** Es el valor que aparece con mayor frecuencia en un conjunto de datos. Un conjunto de datos puede tener uno, más de uno o ningún modo.
+
+### Percentiles
+
+**Definición:** Los percentiles dividen un conjunto de datos ordenados en 100 partes iguales. El percentil \( p \) es el valor por debajo del cual se encuentra el \( p \)% de los datos.
+
+Por ejemplo:
+
+- El 25º percentil (también conocido como primer cuartil) es el valor por debajo del cual se encuentra el 25% de los datos.
+- El 50º percentil (también conocido como mediana) es el valor por debajo del cual se encuentra el 50% de los datos.
+- El 75º percentil (también conocido como tercer cuartil) es el valor por debajo del cual se encuentra el 75% de los datos.
+
+### Cuartiles
+
+**Definición:** Los cuartiles dividen un conjunto de datos ordenados en cuatro partes iguales.
+
+- **Primer Cuartil (Q1):** Es el valor que separa el 25% inferior de los datos.
+- **Segundo Cuartil (Q2):** Es la mediana y separa el 50% de los datos.
+- **Tercer Cuartil (Q3):** Es el valor que separa el 75% inferior de los datos.
+
+El rango intercuartil (RIC) se define como:
+
+$ RIC = Q3 - Q1 $
+
+Y mide la dispersión de la mitad central de los datos.
