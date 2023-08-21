@@ -93,6 +93,8 @@ _Ejemplo:_ Siguiendo el ejemplo anterior, la frecuencia relativa de estudiantes 
 
 _Ejemplo:_ Si además de los 10 estudiantes de 20 años, hay 5 de 21 años y 15 de 22 años, la frecuencia acumulada para los estudiantes de 22 años sería 10 + 5 + 15 = 30.
 
+![Gráficos de frecuencias](./frecuencias.png)
+
 ## 2. Gráficos
 
 Los gráficos son representaciones visuales que facilitan la comprensión y el análisis de los datos. Dependiendo del tipo de variable y la información que se quiera transmitir, se pueden utilizar diferentes tipos de gráficos.
@@ -107,3 +109,40 @@ Los gráficos son representaciones visuales que facilitan la comprensión y el a
 - **Histograma:** Similar al diagrama de barras, pero para datos cuantitativos. Las barras representan intervalos de valores.
 - **Polígono de frecuencias:** Une con líneas rectas los puntos que representan las frecuencias de cada intervalo.
 - **Ojiva:** Representa la frecuencia acumulada.
+
+## 3. Cálculo del Número de Intervalos y Amplitud
+
+Cuando se trabaja con variables cuantitativas continuas, es común agrupar los datos en intervalos para facilitar su representación y análisis. Para ello, es necesario determinar cuántos intervalos usar y cuál será su amplitud.
+
+### Cálculo del Número de Intervalos
+
+Una de las fórmulas más utilizadas para determinar el número de intervalos es la **fórmula de Sturges**:
+
+\[ k = 1 + 3.322 \times \log\_{10}(n) \]
+
+Donde:
+
+- \( k \) es el número de intervalos.
+- \( n \) es el número total de datos.
+
+### Amplitud de los Intervalos
+
+Una vez determinado el número de intervalos, la amplitud (o ancho) de cada intervalo se calcula como:
+
+\[ A = \frac{R}{k} \]
+
+Donde:
+
+- \( A \) es la amplitud de los intervalos.
+- \( R \) es el rango de los datos, que se calcula como la diferencia entre el valor máximo y el valor mínimo.
+- \( k \) es el número de intervalos.
+
+## 4. La Fórmula de Sturges
+
+La **fórmula de Sturges** es una regla empírica que proporciona una estimación rápida del número de intervalos que se deben usar al construir un histograma para un conjunto de datos. Fue propuesta por Herbert A. Sturges en 1926 y es especialmente útil cuando se tiene un gran conjunto de datos.
+
+La fórmula es:
+
+\[ k = 1 + 3.322 \times \log\_{10}(n) \]
+
+Es importante mencionar que, aunque la fórmula de Sturges es ampliamente utilizada, en algunos contextos o con ciertos tipos de datos, puede ser más apropiado usar otro método para determinar el número de intervalos.
