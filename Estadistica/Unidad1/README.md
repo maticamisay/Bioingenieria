@@ -173,9 +173,33 @@ Donde:
 - $` x_i `$ son los valores individuales.
 - $` n `$ es el número total de datos.
 
+Si los datos se repiten más de una vez y se presentan en una distribución de frecuencia, la fórmula de la media aritmética se puede expresar como:
+
+$` \bar{X} = \frac{\sum_{i=1}^{k} f_i x_i}{N} `$
+
+Donde:
+
+- $` \bar{X} `$ es la media aritmética.
+- $` f_i `$ es la frecuencia absoluta de cada valor.
+- $` x_i `$ son los valores individuales.
+- $` k `$ es el número de valores diferentes.
+
+Si se trata de datos agrupados en intervalos la media se calcula como:
+
+$` \bar{X} = \frac{\sum_{i=1}^{k} m_i f_i}{N} `$
+
+Donde:
+
+- $` \bar{X} `$ es la media aritmética.
+- $` m_i `$ es la marca de clase de cada intervalo (promedio de los límites del intervalo). Se calcula como: $` m_i = \frac{L_i + L_s}{2} `$, donde $` L_i `$ es el límite inferior y $` L_s `$ es el límite superior del intervalo.
+- $` f_i `$ es la frecuencia absoluta de cada intervalo.
+- $` k `$ es el número de intervalos.
+
 ### Mediana
 
 **Definición:** Es el valor que divide un conjunto de datos ordenados en dos partes iguales. Si hay un número impar de datos, la mediana es el valor central. Si hay un número par de datos, la mediana es el promedio de los dos valores centrales.
+
+**Ejemplo:** Si tenemos los siguientes datos: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, la mediana es 5. Si tenemos los siguientes datos: 1, 2, 3, 4, 5, 6, 7, 8, 9, la mediana es 4.5.
 
 ### Modo
 
@@ -204,3 +228,159 @@ El rango intercuartil (RIC) se define como:
 $` RIC = Q3 - Q1 `$
 
 Y mide la dispersión de la mitad central de los datos.
+
+# Medidas de Dispersión
+
+Mientras que las medidas de tendencia central nos proporcionan un valor representativo o central de un conjunto de datos, las medidas de dispersión nos indican cuánto se alejan los datos de ese valor central. Estas medidas son esenciales para entender la variabilidad o consistencia de un conjunto de datos.
+
+## 1. Rango
+
+**Definición:** Es la diferencia entre el valor máximo y el valor mínimo de un conjunto de datos.
+
+$` Rango = X_{max} - X_{min} `$
+
+Donde:
+
+- $` X_{max} `$ es el valor máximo.
+- $` X_{min} `$ es el valor mínimo.
+
+## 2. Varianza
+
+La varianza mide cuánto varían los datos respecto a la media.
+
+### Para una población:
+
+$` \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N} `$
+
+Donde:
+
+- $` \sigma^2 `$ es la varianza de la población.
+- $` x_i `$ son los valores individuales.
+- $` \mu `$ es la media de la población.
+- $` N `$ es el número total de datos en la población.
+
+### Para una muestra:
+
+$` s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1} `$
+
+Donde:
+
+- $` s^2 `$ es la varianza de la muestra.
+- $` x_i `$ son los valores individuales.
+- $` \bar{x} `$ es la media de la muestra.
+- $` n `$ es el número total de datos en la muestra.
+
+## 3. Desviación Estándar
+
+**Definición:** Es la raíz cuadrada de la varianza. Mide la dispersión promedio de los datos respecto a la media.
+
+### Para una población:
+
+$` \sigma = \sqrt{\sigma^2} `$
+
+### Para una muestra:
+
+$` s = \sqrt{s^2} `$
+
+## 4. Coeficiente de Variación
+
+**Definición:** Es una medida relativa de dispersión que indica la variabilidad de los datos en relación con la media. Es especialmente útil para comparar la variabilidad entre dos o más conjuntos de datos con diferentes unidades o magnitudes.
+
+$` CV = \left( \frac{s}{\bar{x}} \right) \times 100\% `$
+
+Donde:
+
+- $` CV `$ es el coeficiente de variación.
+- $` s `$ es la desviación estándar de la muestra.
+- $` \bar{x} `$ es la media de la muestra.
+
+# Otras Medidas
+
+Más allá de las medidas de tendencia central y dispersión, existen otras medidas que nos ayudan a entender la estructura y forma de un conjunto de datos. Estas medidas nos proporcionan información sobre la simetría y la forma de la distribución de los datos.
+
+## 1. Distribución respecto a un Eje de Simetría
+
+La simetría de una distribución se refiere a cómo se distribuyen los datos en relación con su media. Las medidas que nos ayudan a entender la simetría son:
+
+### Coeficiente de Asimetría (Skewness)
+
+**Definición:** Es una medida que indica la dirección y grado de asimetría de una distribución.
+
+$` g_1 = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^3 `$
+
+Donde:
+
+- $` g_1 `$ es el coeficiente de asimetría.
+- $` x_i `$ son los valores individuales.
+- $` \bar{x} `$ es la media de la muestra.
+- $` s `$ es la desviación estándar de la muestra.
+- $` n `$ es el número total de datos en la muestra.
+
+Valores:
+
+- $` g_1 > 0 `$: Asimetría positiva (la cola se extiende hacia la derecha).
+- $` g_1 = 0 `$: Distribución simétrica.
+- $` g_1 < 0 `$: Asimetría negativa (la cola se extiende hacia la izquierda).
+
+## 2. Distribución según la Forma
+
+La forma de una distribución se refiere a la "puntiagudez" o "aplanamiento" de la misma en relación con una distribución normal.
+
+### Curtosis (Kurtosis)
+
+**Definición:** Es una medida que indica el grado de concentración de los valores alrededor de la media.
+
+$` g_2 = \frac{n(n+1)}{(n-1)(n-2)(n-3)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^4 - \frac{3(n-1)^2}{(n-2)(n-3)} `$
+
+Donde:
+
+- $` g_2 `$ es el coeficiente de curtosis.
+- $` x_i `$ son los valores individuales.
+- $` \bar{x} `$ es la media de la muestra.
+- $` s `$ es la desviación estándar de la muestra.
+- $` n `$ es el número total de datos en la muestra.
+
+Valores:
+
+- $` g_2 > 0 `$: Leptocúrtica (distribución más puntiaguda que la normal).
+- $` g_2 = 0 `$: Mesocúrtica (distribución normal).
+- $` g_2 < 0 `$: Platicúrtica (distribución más aplanada que la normal).
+
+# Gráfico de Caja (Box-Plot)
+
+El gráfico de caja, también conocido como box-plot o diagrama de caja y bigotes, es una herramienta gráfica que permite visualizar la distribución y variabilidad de un conjunto de datos, así como la presencia de valores atípicos. Es especialmente útil para comparar distribuciones entre varios grupos.
+
+## 1. Componentes del Box-Plot
+
+Un box-plot está compuesto por los siguientes elementos:
+
+- **Caja:** Representa el rango intercuartil (RIC), que es la diferencia entre el tercer cuartil (Q3) y el primer cuartil (Q1). La caja contiene la mitad central de los datos.
+
+  - **Borde inferior:** Representa el primer cuartil (Q1).
+  - **Borde superior:** Representa el tercer cuartil (Q3).
+  - **Línea dentro de la caja:** Representa la mediana (Q2 o segundo cuartil).
+
+- **Bigotes:** Son líneas que se extienden desde los bordes de la caja hasta los valores mínimos y máximos dentro de un rango determinado.
+
+  - **Bigote inferior:** Se extiende desde Q1 hasta el valor mínimo o hasta el valor más cercano dentro de 1.5 \* RIC por debajo de Q1.
+  - **Bigote superior:** Se extiende desde Q3 hasta el valor máximo o hasta el valor más cercano dentro de 1.5 \* RIC por encima de Q3.
+
+- **Puntos fuera de los bigotes:** Representan valores atípicos. Son aquellos valores que se encuentran fuera del rango definido por los bigotes.
+
+## 2. Interpretación
+
+- **Posición de la mediana:** Si la mediana está centrada en la caja, la distribución es simétrica. Si está más cerca de Q1 o Q3, indica asimetría.
+- **Ancho de la caja:** Un RIC más amplio indica mayor variabilidad en la mitad central de los datos.
+- **Longitud de los bigotes:** Indica la variabilidad fuera de la mitad central de los datos.
+- **Valores atípicos:** Pueden indicar errores en los datos o variabilidad extrema.
+
+## 3. Ventajas del Box-Plot
+
+- Proporciona una visión rápida de la distribución y variabilidad de los datos.
+- Es útil para identificar valores atípicos.
+- Permite comparar fácilmente distribuciones entre diferentes grupos.
+
+## 4. Limitaciones
+
+- No muestra la distribución detallada de los datos.
+- No es adecuado para conjuntos de datos pequeños.
