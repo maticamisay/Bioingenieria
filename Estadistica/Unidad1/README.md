@@ -159,13 +159,13 @@ Las medidas de tendencia central identifican un valor central o típico en un co
 
 **Definición:** Es la suma de todos los valores en un conjunto de datos dividida por el número total de valores.
 
-$ \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{n} $
+$` \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{n} `$
 
 Donde:
 
 - $` \bar{X} `$ es la media aritmética.
-- $ x_i $ son los valores individuales.
-- $ n $ es el número total de datos.
+- $` x_i `$ son los valores individuales.
+- $` n `$ es el número total de datos.
 
 ### Mediana
 
@@ -195,6 +195,6 @@ Por ejemplo:
 
 El rango intercuartil (RIC) se define como:
 
-$ RIC = Q3 - Q1 $
+$` RIC = Q3 - Q1 `$
 
 Y mide la dispersión de la mitad central de los datos.
