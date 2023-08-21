@@ -163,7 +163,7 @@ $ \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{n} $
 
 Donde:
 
-- $ \bar{X} $ es la media aritmética.
+- $` \bar{X} `$ es la media aritmética.
 - $ x_i $ son los valores individuales.
 - $ n $ es el número total de datos.
 
