@@ -118,7 +118,7 @@ Cuando se trabaja con variables cuantitativas continuas, es común agrupar los d
 
 Una de las fórmulas más utilizadas para determinar el número de intervalos es la **fórmula de Sturges**:
 
-$ [ k = 1 + 3.322 \times \log{10}(n) ] $
+$ [ k = 1 + 3.322 \times log{10}(n) ] $
 
 Donde:
 
