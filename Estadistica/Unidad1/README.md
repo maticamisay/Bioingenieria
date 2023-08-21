@@ -77,21 +77,27 @@ Una distribución de frecuencias es una tabla que muestra cómo se distribuyen l
 
 ### Frecuencia Absoluta
 
-**Definición:** Es el número de veces que se repite un determinado valor en un conjunto de datos.
+**Definición:** Es el número de veces que se repite un determinado valor en un conjunto de datos. Formula: $` f_i `$
 
 _Ejemplo:_ Si en una clase de 30 estudiantes, 10 tienen 20 años, la frecuencia absoluta de estudiantes de 20 años es 10.
 
 ### Frecuencia Relativa
 
-**Definición:** Es la proporción o porcentaje que representa una frecuencia absoluta respecto al total de datos.
+**Definición:** Es la proporción o porcentaje que representa una frecuencia absoluta respecto al total de datos. Formula: $` f_i = \frac{f_i}{N} `$
 
 _Ejemplo:_ Siguiendo el ejemplo anterior, la frecuencia relativa de estudiantes de 20 años sería \( \frac{10}{30} = 0.33 \) o 33%.
 
 ### Frecuencia Acumulada
 
-**Definición:** Es la suma de las frecuencias absolutas de todos los valores hasta un determinado valor.
+**Definición:** Es la suma de las frecuencias absolutas de todos los valores hasta un determinado valor. Formula: $` F_i = \sum_{j=1}^{i} f_j `$
 
 _Ejemplo:_ Si además de los 10 estudiantes de 20 años, hay 5 de 21 años y 15 de 22 años, la frecuencia acumulada para los estudiantes de 22 años sería 10 + 5 + 15 = 30.
+
+### Frecuencia Relativa Acumulada
+
+**Definición:** Es la suma de las frecuencias relativas de todos los valores hasta un determinado valor. Formula: $` F_i = \sum_{j=1}^{i} f_j `$
+
+_Ejemplo:_ Siguiendo el ejemplo anterior, la frecuencia relativa acumulada para los estudiantes de 22 años sería $` \frac{10}{30} + \frac{5}{30} + \frac{15}{30} = 1 `$ o 100%.
 
 ![Gráficos de frecuencias](./frecuencias.png)
 
@@ -122,14 +128,14 @@ $` [ k = 1 + 3.322 \times log{10}(n) ] `$
 
 Donde:
 
-- \( k \) es el número de intervalos.
-- \( n \) es el número total de datos.
+- $` k `$ es el número de intervalos.
+- $` n `$ es el número total de datos.
 
 ### Amplitud de los Intervalos
 
 Una vez determinado el número de intervalos, la amplitud (o ancho) de cada intervalo se calcula como:
 
-$[ A = \frac{R}{k} ]$
+$` A = \frac{R}{k} `$
 
 Donde:
 
@@ -143,7 +149,7 @@ La **fórmula de Sturges** es una regla empírica que proporciona una estimació
 
 La fórmula es:
 
-$` [ k = 1 + 3.322 \times log{10}(n) ] `$
+$` k = 1 + 3.322 \times log{10}(n) `$
 
 Es importante mencionar que, aunque la fórmula de Sturges es ampliamente utilizada, en algunos contextos o con ciertos tipos de datos, puede ser más apropiado usar otro método para determinar el número de intervalos.
 
@@ -177,7 +183,7 @@ Donde:
 
 ### Percentiles
 
-**Definición:** Los percentiles dividen un conjunto de datos ordenados en 100 partes iguales. El percentil \( p \) es el valor por debajo del cual se encuentra el \( p \)% de los datos.
+**Definición:** Los percentiles dividen un conjunto de datos ordenados en 100 partes iguales. El percentil $ p $ es el valor por debajo del cual se encuentra el $ p $% de los datos.
 
 Por ejemplo:
 
