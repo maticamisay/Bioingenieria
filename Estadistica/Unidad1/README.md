@@ -118,7 +118,7 @@ Cuando se trabaja con variables cuantitativas continuas, es común agrupar los d
 
 Una de las fórmulas más utilizadas para determinar el número de intervalos es la **fórmula de Sturges**:
 
-\[ k = 1 + 3.322 \times \log\_{10}(n) \]
+$ [ k = 1 + 3.322 \times \log{10}(n) ] $
 
 Donde:
 
@@ -129,7 +129,7 @@ Donde:
 
 Una vez determinado el número de intervalos, la amplitud (o ancho) de cada intervalo se calcula como:
 
-\[ A = \frac{R}{k} \]
+$[ A = \frac{R}{k} ]$
 
 Donde:
 
@@ -143,6 +143,6 @@ La **fórmula de Sturges** es una regla empírica que proporciona una estimació
 
 La fórmula es:
 
-\[ k = 1 + 3.322 \times \log\_{10}(n) \]
+$ [ k = 1 + 3.322 \times \log{10}(n) ] $
 
 Es importante mencionar que, aunque la fórmula de Sturges es ampliamente utilizada, en algunos contextos o con ciertos tipos de datos, puede ser más apropiado usar otro método para determinar el número de intervalos.
