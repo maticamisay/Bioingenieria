@@ -12,8 +12,8 @@
 
 **Responder:**
 a) ¿Cuál es la variable de interés?
-b) Presente la información en una distribución de frecuencias. 
-c) Determine las medidas de resumen. ¿Qué concluye? 
+b) Presente la información en una distribución de frecuencias.
+c) Determine las medidas de resumen. ¿Qué concluye?
 d) ¿Qué porcentaje de hogares no usa lámparas LED?
 e) ¿Qué porcentaje de hogares usa fluorescentes compactas o tubos fluorescentes?
 
@@ -25,20 +25,20 @@ b) Para presentar la información en una distribución de frecuencias, primero c
 
 #### Distribución de Frecuencias:
 
-| Tipo de Luminaria         | Frecuencia Relativa (%) | Frecuencia Absoluta |
-|---------------------------|-------------------------|---------------------|
-| Incandescentes            | 8,9%                    | \(8,9/100 \times 1000 = 89\)  |
-| Halógenas                 | 6,7%                    | \(6,7/100 \times 1000 = 67\)  |
-| Fluorescentes compactas   | 48,1%                   | \(48,1/100 \times 1000 = 481\)|
-| LED                       | 32,1%                   | \(32,1/100 \times 1000 = 321\)|
-| Tubos fluorescentes       | 4,2%                    | \(4,2/100 \times 1000 = 42\)  |
-| **Total**                 | **100%**                | **1000**             |
+| Tipo de Luminaria       | Frecuencia Relativa (%) | Frecuencia Absoluta            |
+| ----------------------- | ----------------------- | ------------------------------ |
+| Incandescentes          | 8,9%                    | $`8,9/100 \times 1000 = 89`$   |
+| Halógenas               | 6,7%                    | $`6,7/100 \times 1000 = 67`$   |
+| Fluorescentes compactas | 48,1%                   | $`48,1/100 \times 1000 = 481`$ |
+| LED                     | 32,1%                   | $`32,1/100 \times 1000 = 321`$ |
+| Tubos fluorescentes     | 4,2%                    | $`4,2/100 \times 1000 = 42`$   |
+| **Total**               | **100%**                | **1000**                       |
 
 #### Cálculos realizados:
 
 Para obtener la frecuencia absoluta de cada tipo de luminaria, multiplicamos el porcentaje (frecuencia relativa) por el total de hogares (1000) y dividimos por 100.
 
 Por ejemplo, para las luminarias incandescentes:
-Frecuencia Absoluta = $$ \frac{8,9}{100} \times 1000 = 89 $$
+Frecuencia Absoluta = $` \frac{8,9}{100} \times 1000 = 89 `$
 
 Haciendo lo mismo para cada tipo de luminaria, obtenemos la distribución de frecuencias presentada anteriormente.
