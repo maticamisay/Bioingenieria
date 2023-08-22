@@ -165,7 +165,7 @@ Las medidas de tendencia central identifican un valor central o típico en un co
 
 **Definición:** Es la suma de todos los valores en un conjunto de datos dividida por el número total de valores.
 
-$` \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{N} `$
+$$ \bar{X} = \frac{\sum\_{i=1}^{n} x_i}{N} $$
 
 Donde:
 
