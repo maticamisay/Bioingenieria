@@ -10,20 +10,21 @@
 - LED: 32,1%
 - Tubos fluorescentes: 4,2%
 
-**Responder:**
+### Responder:
+
 a) ¿Cuál es la variable de interés?
 b) Presente la información en una distribución de frecuencias.
 c) Determine las medidas de resumen. ¿Qué concluye?
 d) ¿Qué porcentaje de hogares no usa lámparas LED?
 e) ¿Qué porcentaje de hogares usa fluorescentes compactas o tubos fluorescentes?
 
-**Solución:**
+### Solución:
 
 a) La variable de interés es el "tipo de luminaria utilizada en los hogares urbanos de Argentina".
 
 b) Para presentar la información en una distribución de frecuencias, primero convertiremos los porcentajes en frecuencias absolutas, considerando que la muestra es de 1000 hogares.
 
-#### Distribución de Frecuencias:
+**Distribución de Frecuencias:**
 
 | Tipo de Luminaria       | Frecuencia Relativa (%) | Frecuencia Absoluta            |
 | ----------------------- | ----------------------- | ------------------------------ |
@@ -34,7 +35,7 @@ b) Para presentar la información en una distribución de frecuencias, primero c
 | Tubos fluorescentes     | 4,2%                    | $`4,2/100 \times 1000 = 42`$   |
 | **Total**               | **100%**                | **1000**                       |
 
-#### Cálculos realizados:
+**Cálculos realizados:**
 
 Para obtener la frecuencia absoluta de cada tipo de luminaria, multiplicamos el porcentaje (frecuencia relativa) por el total de hogares (1000) y dividimos por 100.
 
@@ -42,3 +43,22 @@ Por ejemplo, para las luminarias incandescentes:
 Frecuencia Absoluta = $` \frac{8,9}{100} \times 1000 = 89 `$
 
 Haciendo lo mismo para cada tipo de luminaria, obtenemos la distribución de frecuencias presentada anteriormente.
+
+c) Las medidas de resumen típicas para datos cualitativos son la moda y las frecuencias relativas.
+
+**Moda:** Es el valor que tiene la mayor frecuencia.
+En este caso, la moda es "Fluorescentes compactas" con una frecuencia relativa del 48,1%.
+
+**Conclusión:** La luminaria más utilizada en los hogares urbanos de Argentina es la "Fluorescente compacta".
+
+d) Para determinar el porcentaje de hogares que no usa lámparas LED, simplemente restamos el porcentaje de hogares que sí las usa del 100%.
+
+Porcentaje de hogares que no usa LED = 100% - 32,1% = 67,9%
+
+**Conclusión:** El 67,9% de los hogares no usa lámparas LED.
+
+e) Para determinar el porcentaje de hogares que usa fluorescentes compactas o tubos fluorescentes, sumamos los porcentajes de ambos tipos de luminarias.
+
+Porcentaje de hogares que usa fluorescentes compactas o tubos fluorescentes = 48,1% + 4,2% = 52,3%
+
+**Conclusión:** El 52,3% de los hogares usa fluorescentes compactas o tubos fluorescentes.
