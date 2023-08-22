@@ -165,7 +165,7 @@ Las medidas de tendencia central identifican un valor central o típico en un co
 
 **Definición:** Es la suma de todos los valores en un conjunto de datos dividida por el número total de valores.
 
-$$ \bar{X} = \frac{\sum\_{i=1}^{n} x*i}{N} $$
+$$ \bar{X} = \frac{1}{N} \sum_{i=1}^{n} x_i $$
 
 Donde:
 
@@ -207,7 +207,7 @@ Donde:
 
 ### Percentiles
 
-**Definición:** Los percentiles dividen un conjunto de datos ordenados en 100 partes iguales. El percentil $ p $ es el valor por debajo del cual se encuentra el $ p $% de los datos.
+**Definición:** Los percentiles dividen un conjunto de datos ordenados en 100 partes iguales. El percentil $ p $ es el valor por debajo del cual se encuentra el $ p $ % de los datos.
 
 Por ejemplo:
 
