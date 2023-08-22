@@ -175,7 +175,7 @@ Donde:
 
 Si los datos se repiten más de una vez y se presentan en una distribución de frecuencia, la fórmula de la media aritmética se puede expresar como:
 
-$` \bar{X} = \frac{\sum_{i=1}^{k} f_i x_i}{N} `$
+$$ \bar{X} = \frac{1}{N} \sum_{i=1}^{k} f_i x_i $$
 
 Donde:
 
@@ -186,7 +186,7 @@ Donde:
 
 Si se trata de datos agrupados en intervalos la media se calcula como:
 
-$` \bar{X} = \frac{1}{N} \sum_{i=1}^{k} m_i f_i `$
+$$ \bar{X} = \frac{1}{N} \sum_{i=1}^{k} m_i f_i $$
 
 Donde:
 
@@ -250,7 +250,7 @@ La varianza mide cuánto varían los datos respecto a la media.
 
 ### Para una población:
 
-$` \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 `$
+$$ \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 $$
 
 Donde:
 
@@ -261,7 +261,7 @@ Donde:
 
 ### Para una muestra:
 
-$` s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2 `$
+$$ s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2 $$
 
 Donde:
 
@@ -306,7 +306,7 @@ La simetría de una distribución se refiere a cómo se distribuyen los datos en
 
 **Definición:** Es una medida que indica la dirección y grado de asimetría de una distribución.
 
-$` g_1 = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^3 `$
+$$ g_1 = \frac{n}{(n-1)(n-2)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^3 $$
 
 Donde:
 
