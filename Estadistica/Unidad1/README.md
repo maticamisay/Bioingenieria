@@ -330,7 +330,7 @@ La forma de una distribución se refiere a la "puntiagudez" o "aplanamiento" de 
 
 **Definición:** Es una medida que indica el grado de concentración de los valores alrededor de la media.
 
-$` g_2 = \frac{n(n+1)}{(n-1)(n-2)(n-3)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^4 - \frac{3(n-1)^2}{(n-2)(n-3)} `$
+$$ g_2 = \frac{n(n+1)}{(n-1)(n-2)(n-3)} \sum_{i=1}^{n} \left( \frac{x_i - \bar{x}}{s} \right)^4 - \frac{3(n-1)^2}{(n-2)(n-3)} $$
 
 Donde:
 
