@@ -1,3 +1,33 @@
+# Tabla de Contenidos
+
+- [Introducción a la Matemática Estadística](#Introducción-a-la-Matemática-Estadística)
+  - [1. Población](#1.-Población)
+  - [2. Muestra](#2.-Muestra)
+  - [3. Individuo](#3.-Individuo)
+  - [4. Variable](#4.-Variable)
+  - [5. Clasificación de Variables](#5.-Clasificación-de-Variables)
+- [Distribución de Frecuencias y Gráficos](#Distribución-de-Frecuencias-y-Gráficos)
+  - [1. Distribución de Frecuencias](#1.-Distribución-de-Frecuencias)
+  - [2. Gráficos](#2.-Gráficos)
+  - [3. Cálculo del Número de Intervalos y Amplitud](#3.-Cálculo-del-Número-de-Intervalos-y-Amplitud)
+  - [4. La Fórmula de Sturges](#4.-La-Fórmula-de-Sturges)
+- [Medidas de Resumen](#Medidas-de-Resumen)
+  - [Medidas de Tendencia Central](#Medidas-de-Tendencia-Central)
+- [Medidas de Dispersión](#Medidas-de-Dispersión)
+  - [1. Rango](#1.-Rango)
+  - [2. Varianza](#2.-Varianza)
+  - [3. Desviación Estándar](#3.-Desviación-Estándar)
+  - [4. Coeficiente de Variación](#4.-Coeficiente-de-Variación)
+- [Otras Medidas](#Otras-Medidas)
+  - [1. Distribución respecto a un Eje de Simetría](#1.-Distribución-respecto-a-un-Eje-de-Simetría)
+  - [2. Distribución según la Forma](#2.-Distribución-según-la-Forma)
+- [Gráfico de Caja (Box-Plot)](#Gráfico-de-Caja-(Box-Plot))
+  - [1. Componentes del Box-Plot](#1.-Componentes-del-Box-Plot)
+  - [2. Interpretación](#2.-Interpretación)
+  - [3. Ventajas del Box-Plot](#3.-Ventajas-del-Box-Plot)
+  - [4. Limitaciones](#4.-Limitaciones)
+
+
 # Introducción a la Matemática Estadística
 
 La estadística es una herramienta esencial en el campo de la bioingeniería, ya que permite analizar y comprender datos biológicos y biomédicos, facilitando la toma de decisiones basadas en evidencia.
