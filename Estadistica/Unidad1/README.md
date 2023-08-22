@@ -186,7 +186,7 @@ Donde:
 
 Si se trata de datos agrupados en intervalos la media se calcula como:
 
-$` \bar{X} = \frac{\sum_{i=1}^{k} m_i f_i}{N} `$
+$` \bar{X} = \frac{1}{N} \sum_{i=1}^{k} m_i f_i `$
 
 Donde:
 
@@ -250,7 +250,7 @@ La varianza mide cuánto varían los datos respecto a la media.
 
 ### Para una población:
 
-$` \sigma^2 = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N} `$
+$` \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2 `$
 
 Donde:
 
@@ -261,7 +261,7 @@ Donde:
 
 ### Para una muestra:
 
-$` s^2 = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n-1} `$
+$` s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2 `$
 
 Donde:
 
