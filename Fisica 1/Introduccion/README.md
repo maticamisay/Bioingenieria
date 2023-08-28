@@ -5,12 +5,6 @@
 - [Introducción](#Introducción)
 - [Conocimientos Previos para Física 1](#Conocimientos-Previos-para-Física-1)
 - [Repaso de Vectores y sus Operaciones](#Repaso-de-Vectores-y-sus-Operaciones)
-  - [Concepto de Vector](#1.-**Concepto-de-Vector**)
-  - [Magnitud y Dirección](#2.-**Magnitud-y-Dirección**)
-  - [Componentes de un Vector](#3.-**Componentes-de-un-Vector**)
-  - [Operaciones con Vectores](#4.-**Operaciones-con-Vectores**)
-  - [Vectores Unitarios](#5.-**Vectores-Unitarios**)
-  - [Aplicaciones en Física](#6.-**Aplicaciones-en-Física**)
 - [Conclusiones](#Conclusiones)
 
 ## Introducción
