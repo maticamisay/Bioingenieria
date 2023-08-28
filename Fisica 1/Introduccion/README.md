@@ -49,23 +49,23 @@ Un vector puede descomponerse en sus componentes horizontal (x) y vertical (y). 
 ### 4. **Operaciones con Vectores**
 
 - **Suma de Vectores:** Para sumar dos vectores, se suman sus componentes correspondientes. Si $` \vec{A} `$ y $` \vec{B} `$ son dos vectores, la suma es:
-  $$ \vec{A} + \vec{B} = (A_x + B_x, A_y + B_y) $$
+  $` \vec{A} + \vec{B} = (A_x + B_x, A_y + B_y) `$
 
 - **Resta de Vectores:** Similar a la suma, pero restando las componentes:
-  $$ \vec{A} - \vec{B} = (A_x - B_x, A_y - B_y) $$
+  $` \vec{A} - \vec{B} = (A_x - B_x, A_y - B_y) `$
 
 - **Multiplicación por un Escalar:** Si $` k `$ es un número (escalar) y $` \vec{A} `$ es un vector, la multiplicación es:
-  $$ k \cdot \vec{A} = (k \cdot A_x, k \cdot A_y) $$
+  $` k \cdot \vec{A} = (k \cdot A_x, k \cdot A_y) `$
 
 - **Producto Punto (o Escalar):** Es el producto de las magnitudes de dos vectores y el coseno del ángulo entre ellos. Si $` \vec{A} `$ y $` \vec{B} `$ son dos vectores, el producto punto es:
-  $$ \vec{A} \cdot \vec{B} = |A| \cdot |B| \cdot \cos(\theta) $$
+  $` \vec{A} \cdot \vec{B} = |A| \cdot |B| \cdot \cos(\theta) `$
   También puede calcularse como:
-  $$ \vec{A} \cdot \vec{B} = A_x \cdot B_x + A_y \cdot B_y $$
+  $` \vec{A} \cdot \vec{B} = A_x \cdot B_x + A_y \cdot B_y `$
 
 - **Producto Cruz (o Vectorial):** Es un vector cuya magnitud es el producto de las magnitudes de dos vectores y el seno del ángulo entre ellos. Su dirección es perpendicular a los dos vectores originales. Solo se define para vectores en tres dimensiones. Si $` \vec{A} `$ y $` \vec{B} `$ son dos vectores, el producto cruz es:
-  $$ \vec{A} \times \vec{B} = |A| \cdot |B| \cdot \sin(\theta) \cdot \hat{n} $$
+  $` \vec{A} \times \vec{B} = |A| \cdot |B| \cdot \sin(\theta) \cdot \hat{n} `$
   donde $` \hat{n} `$ es un vector unitario perpendicular a $` \vec{A} `$ y $` \vec{B} `$. También puede calcularse como:
-  $$ \vec{A} \times \vec{B} = (A_y \cdot B_z - A_z \cdot B_y, A_z \cdot B_x - A_x \cdot B_z, A_x \cdot B_y - A_y \cdot B_x) $$
+  $` \vec{A} \times \vec{B} = (A_y \cdot B_z - A_z \cdot B_y, A_z \cdot B_x - A_x \cdot B_z, A_x \cdot B_y - A_y \cdot B_x) `$
 
 ### 5. **Vectores Unitarios**
 
