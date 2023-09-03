@@ -61,3 +61,22 @@ Conclusión: El 67,9% de los hogares no usa lámparas LED.
 Porcentaje de hogares que usa fluorescentes compactas o tubos fluorescentes = 48,1% + 4,2% = 52,3%
 
 Conclusión: El 52,3% de los hogares usa fluorescentes compactas o tubos fluorescentes.
+
+## Ejercicio 2
+
+**Enunciado:** Los valores del pH sanguíneo medido por un equipo de laboratorio de 32 individuos son los siguientes:
+
+7.33 7.31 7.26 7.33 7.37 7.27 7.30 7.33
+7.33 7.32 7.35 7.39 7.33 7.38 7.33 7.31
+7.37 7.35 7.34 7.32 7.29 7.35 7.38 7.32
+7.32 7.33 7.32 7.40 7.33 7.32 7.34 7.33
+
+### Responder:
+
+- a) Defina la variable del problema y clasifíquela.
+- b) Calcule las medidas de tendencia central y de dispersión. Interprete.
+- c) Agrupe los datos y calcule las medidas de tendencia central y de dispersión.
+- d) Compare los valores obtenidos para la media y varianza en los ítems b y c conclusión?
+- e) Grafique el histograma, la ojiva y el diagrama de caja. ¿Qué puede decir de la asimetría?
+- f) ¿Qué cantidad de personas tienen pH sanguíneo entre 7.31 y 7.34? ¿Qué porcentaje representa del total?
+- g) Si se deben descartar las muestras cuyo pH es de 7.33 o menos. ¿con qué porcentaje de muestras se contará en el laboratorio?
